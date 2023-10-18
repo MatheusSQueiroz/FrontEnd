@@ -1,0 +1,34 @@
+
+* {
+    margin: 0px;
+    background-color: darkcyan;
+}
+
+ul{
+    font-size: 30px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sobre{
+    font-size: 85px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+#ipsum{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+img{
+    height: 250px;
+}
+
+#video{
+    height: 250px;
+    justify-content: center;
+}
