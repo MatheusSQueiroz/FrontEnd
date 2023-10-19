@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Home Page</title>
 
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="icon" href="./assets/source/coding.png" type="image/x-icon">
-
-</head>
-<body>
-    <ul>
-        <li>
-            <a href="./index.html">Home</a>
-        </li>
-        <li>
-            <a href="./contato.html">Contato</a>
-        </li>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" href="./assets/source/coding.png" type="image/x-icon" />
+  </head>
+  <body>
+    <ul id="menu">
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./contato.html">Contato</a>
+      </li>
     </ul>
 
-    <h1 id="sobre">Sobre o Matheus</h1>
+    <h1 class="center">Sobre a Home Page</h1>
+    
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="./assets/source/mussumipsum.png" alt="mussum ipsum" />        
+        </div>
 
-    <p id="ipsum">
-        Mussum Ipsum, cacilds vidis litro abertis.  Mais vale um bebadis conhecidiss, que um alcoolatra 
-        anonimis. Quem num gosta di mé, boa gentis num é. Suco de cevadiss deixa as pessoas mais 
-        interessantis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+      <div class="p-30">
+        <p class="justify">
+          Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis
+          conhecidiss, que um alcoolatra anonimis. Quem num gosta di mé, boa
+          gentis num é. Suco de cevadiss deixa as pessoas mais interessantis.
+          Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus
+          tristique interdum. Bota 1 metro de cachacis aí pra viagem! Aenean
+          aliquam molestie leo, vitae iaculis nisl. Paisis, filhis, espiritis
+          santis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis,
+          aguis e fermentis.
+        </p>
 
-        Bota 1 metro de cachacis aí pra viagem! Aenean aliquam molestie leo, vitae iaculis nisl. 
-        Paisis, filhis, espiritis santis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, 
-        aguis e fermentis.
-        
-        Interagi no mé, cursus quis, vehicula ac nisi. Detraxit consequat et quo num tendi nada. Morbi 
-        viverra placerat justo, vel pharetra turpis. Paisis, filhis, espiritis santis.
-        
-        Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Nullam 
-        volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si num tem leite 
-        então bota uma pinga aí cumpadi! Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!
-        
-        Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Em pé sem cair, 
-        deitado sem dormir, sentado sem cochilar e fazendo pose. A ordem dos tratores não altera o pão duris. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
-        
-        Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. 
-        Copo furadis é disculpa de bebadis, arcu quam euismod magna. Interessantiss quisso pudia ce 
-        receita de bolis, mais bolis eu num gostis. Diuretics paradis num copo é motivis de denguis.
-    </p>
+        <p class="justify">
+          Interagi no mé, cursus quis, vehicula ac nisi. Detraxit consequat et
+          quo num tendi nada. Morbi viverra placerat justo, vel pharetra turpis.
+          Paisis, filhis, espiritis santis. Posuere libero varius. Nullam a nisl
+          ut ante blandit hendrerit. Aenean sit amet nisi. Nullam volutpat risus
+          nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si
+          num tem leite então bota uma pinga aí cumpadi! Si u mundo tá muito
+          paradis? Toma um mé que o mundo vai girarzis!
+        </p>
+      </div>
 
-    <img src="./assets/source/mussumipsum.png" alt="mussum ipsum">
+    </div>
 
-    <iframe 
-    id="video"
-    width="560"
-    height="315"
-    src="https://www.youtube.com/watch?v=OtUgra5BtwI"
-    frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    ></iframe>
-</body>
+    <h2 class="center">Video Teste:</h2>
+
+    <div class="container mb-50">
+        <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/watch?v=OtUgra5BtwI"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        ></iframe>
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <a href="https://github.com/MatheusSQueiroz"><img class="tm-social p-30" src="./assets/source/github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/matheusqrz/"><img class="tm-social p-30" src="./assets/source/linkedin.png" alt="Linkedin"></a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Matheus Queiroz &copy;
+        </p>
+    </footer>
+
+  </body>
+
 </html>

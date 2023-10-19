@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
 
-    <link rel="stylesheet" href="./assets/css/stylescontato.css">
-
-</head>
-<body>
-    <ul>
-        <li>
-            <a href="./index.html">Home</a>
-        </li>
-        <li>
-            <a href="./contato.html">Contato</a>
-        </li>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <ul id="menu">
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./contato.html">Contato</a>
+      </li>
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
+    <div class="container mb-50">
 
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-
-        <button>Enviar</button>
-    </form>
-
-    <div>
-    <h2>Endereço:</h2>
-    <p>Praça Roberto Gomes Pedrosa, 1</p>
-    <p>São Paulo - SP</p>
-
+      <div>
+        <form>
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" />
+          <br />
+          <br />
     
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0928476204895!2d-46.72261968998535!3d-23.601002862959586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56c31b1fe649%3A0x7d134f4dfc6618c2!2sEst%C3%A1dio%20do%20Morumbi!5e0!3m2!1spt-BR!2sbr!4v1697575345387!5m2!1spt-BR!2sbr" 
-    width="400" 
-    height="250"
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+          <label for="email">E-mail:</label><br />
+          <input type="email" id="email" />
+          <br />
+          <br />
+    
+          <label for="assunto">Assunto:</label><br />
+          <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+          <br />
+          <br />
+    
+          <button onclick="verificarCampos()">Enviar</button>
+        </form>
+      </div>
+
+      <div class="ml-50">
+
+        <p>Praça Roberto Gomes Pedrosa, 1</p>
+        <p>São Paulo - SP</p>
+  
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0928476204895!2d-46.72261968998535!3d-23.601002862959586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56c31b1fe649%3A0x7d134f4dfc6618c2!2sEst%C3%A1dio%20do%20Morumbi!5e0!3m2!1spt-BR!2sbr!4v1697575345387!5m2!1spt-BR!2sbr"
+          width="400"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
     </div>
-</body>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <a href="https://github.com/MatheusSQueiroz"><img class="tm-social p-30" src="./assets/source/github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/matheusqrz/"><img class="tm-social p-30" src="./assets/source/linkedin.png" alt="Linkedin"></a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Matheus Queiroz &copy;
+        </p>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>
+    
+  </body>
 </html>
